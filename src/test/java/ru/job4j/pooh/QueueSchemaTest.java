@@ -15,7 +15,7 @@ class QueueSchemaTest {
         var queue = new QueueSchema();
         var result = new CopyOnWriteArrayList<String>();
         var count = new CountDownLatch(1);
-        queue.addReceiver(new TextReceiver(new CountDownLatch(0), "cars", result));
+        queue.addReceiver(new TextReceiver(count, "cars", result));
         queue.addReceiver(new TextReceiver(count, "weather", result));
         queue.publish(new Message("weather", "18"));
         var thread = new Thread(queue);
@@ -24,7 +24,6 @@ class QueueSchemaTest {
         thread.interrupt();
         assertThat(result).contains("18");
     }
-
 
     @Test
     public void whenSingleReceiver() throws InterruptedException {

@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94fe8e35-f0b5-4859-b088-c1822e3257b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="94fe8e35-f0b5-4859-b088-c1822e3257b9" name="Changes" comment="Threads _ Тестовое задаение">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/pooh/PoohServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/pooh/PoohServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/pooh/ProducerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/pooh/ProducerClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/pooh/TopicSchema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/pooh/TopicSchema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/job4j/pooh/QueueSchemaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/job4j/pooh/QueueSchemaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,22 +19,120 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2cHafb4nke4d9bpSLvYHcZZqZfj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/projects/job4j_pooh/checkstyle.xml",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.TopicSchemaTest">
+    <configuration name="TopicSchemaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_pooh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.pooh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.pooh" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.pooh.TopicSchemaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicSchemaTest.whenMultiReceivers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_pooh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.pooh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.pooh" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.pooh.TopicSchemaTest" />
+      <option name="METHOD_NAME" value="whenMultiReceivers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicSchemaTest.whenReceiverOnlyByWeather" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_pooh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.pooh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.pooh" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.pooh.TopicSchemaTest" />
+      <option name="METHOD_NAME" value="whenReceiverOnlyByWeather" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicSchemaTest.whenSingleReceiver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_pooh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.pooh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.pooh" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.pooh.TopicSchemaTest" />
+      <option name="METHOD_NAME" value="whenSingleReceiver" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicSchemaTest.whenWithoutMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_pooh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.pooh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.pooh" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.pooh.TopicSchemaTest" />
+      <option name="METHOD_NAME" value="whenWithoutMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TopicSchemaTest" />
+        <item itemvalue="JUnit.TopicSchemaTest.whenMultiReceivers" />
+        <item itemvalue="JUnit.TopicSchemaTest.whenReceiverOnlyByWeather" />
+        <item itemvalue="JUnit.TopicSchemaTest.whenWithoutMessage" />
+        <item itemvalue="JUnit.TopicSchemaTest.whenSingleReceiver" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,8 +141,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707771066552</updated>
-      <workItem from="1707771068517" duration="125000" />
+      <workItem from="1707771068517" duration="506000" />
+      <workItem from="1709825693998" duration="25389000" />
     </task>
+    <task id="LOCAL-00001" summary="Threads _ Тестовое задаение">
+      <created>1707771323303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707771323303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -54,10 +162,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Threads _ Тестовое задаение" />
+    <option name="LAST_COMMIT_MESSAGE" value="Threads _ Тестовое задаение" />
   </component>
 </project>
